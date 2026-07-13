@@ -1,0 +1,10 @@
+[
+    {
+        "src_ip": "1.1.23.3",
+        "attack": "Brute Force"
+    },
+    {
+        "src_ip": "1.1.12.1",
+        "attack": "Brute Force"
+    }
+]
