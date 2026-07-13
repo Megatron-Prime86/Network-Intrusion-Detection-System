@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="5">
+<title>NIDS Security Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+body{margin:0;background:#070b12;color:#eef;font-family:Segoe UI,sans-serif;background-image:radial-gradient(circle at top,#123,#070b12)}
+.navbar{background:rgba(10,15,30,.8);backdrop-filter:blur(12px)}
+.glass{background:rgba(255,255,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:18px;backdrop-filter:blur(14px);box-shadow:0 0 25px rgba(0,229,255,.08)}
+.metric{font-size:2.5rem;font-weight:700;color:#00e5ff}
+.card-hover:hover{transform:translateY(-6px);transition:.25s;box-shadow:0 0 25px rgba(0,229,255,.4)}
+.terminal{background:#020406;color:#00ff8a;padding:15px;border-radius:12px;font-family:Consolas,monospace;height:240px;overflow:auto}
+.footer{text-align:center;color:#aaa;padding:20px}
+.badge-high{background:#dc3545}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-dark px-4"><span class="navbar-brand"><i class="bi bi-shield-lock-fill"></i> Network Security Operations Center</span><span id="clock"></span></nav>
+<div class="container-fluid p-4">
+<div class="row g-4">
+<div class="col-md-3"><div class="glass p-3 card-hover"><div class="metric">{{ total_alerts }}</div><small>Total Alerts</small></div></div>
+<div class="col-md-3"><div class="glass p-3 card-hover"><div class="metric">{{ alerts|length }}</div><small>Threat Indicators</small></div></div>
+<div class="col-md-3"><div class="glass p-3 card-hover"><div class="metric text-success">ACTIVE</div><small>Monitoring</small></div></div>
+<div class="col-md-3"><div class="glass p-3 card-hover"><div class="metric text-warning">ONLINE</div><small>Detection Engine</small></div></div>
+</div>
+<div class="row g-4 mt-2">
+<div class="col-lg-8"><div class="glass p-4"><h4><i class="bi bi-pie-chart-fill"></i> Threat Distribution</h4>{{ chart|safe }}</div></div>
+<div class="col-lg-4">
+<div class="glass p-3 mb-3"><h5>Threat Summary</h5><p>Total Alerts: <b>{{ total_alerts }}</b></p><p>Status: <span class="text-success">ACTIVE</span></p><p>Threat Intelligence: <span class="text-warning">ENABLED</span></p></div>
+<div class="glass p-3"><h5><i class="bi bi-terminal"></i> Live SOC Console</h5><div class="terminal">> IDS Engine Started<br>> Monitoring eth0...<br>> Threat Feed Updated<br>> Awaiting packets...</div></div>
+</div></div>
+<h3 class="mt-5 mb-3"><i class="bi bi-exclamation-triangle-fill text-danger"></i> Recent Alerts</h3>
+<div class="row">
+{% for alert in alerts %}
+<div class="col-md-4 mb-4">
+<div class="glass p-3 card-hover">
+<h5>{{ alert.attack }}</h5><hr>
+<p><b>Source:</b> {{ alert.src_ip }}</p>
+<p><span class="badge badge-high">HIGH</span></p>
+</div></div>
+{% endfor %}
+</div>
+<div class="footer">Powered by AI Network Intrusion Detection System</div>
+</div>
+<script>
+setInterval(()=>{clock.innerText=new Date().toLocaleString();},1000);
+</script>
+</body></html>
