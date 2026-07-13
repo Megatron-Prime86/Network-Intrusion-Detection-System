@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+
+    background:
+    linear-gradient(
+        135deg,
+        #020617,
+        #0f172a,
+        #111827
+    );
+
+    min-height:100vh;
+
+    color:white;
+}
+
+.dashboard-title{
+
+    text-align:center;
+
+    padding:25px;
+}
+
+.dashboard-title h1{
+
+    font-size:3rem;
+
+    font-weight:700;
+}
+
+.dashboard-title p{
+
+    color:#94a3b8;
+}
+
+.glass{
+
+    background:
+    rgba(255,255,255,.05);
+
+    backdrop-filter:blur(15px);
+
+    border:
+    1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    box-shadow:
+    0 8px 32px rgba(0,0,0,.4);
+}
+
+.metric-card{
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.metric-card:hover{
+
+    transform:
+    translateY(-5px);
+}
+
+.metric-card h1{
+
+    font-size:3rem;
+}
+
+.alert-color{
+
+    color:#ff5c5c;
+}
+
+.packet-color{
+
+    color:#38bdf8;
+}
+
+.threat-color{
+
+    color:#f59e0b;
+}
+
+.chart-container{
+
+    padding:20px;
+}
+
+.alert-card{
+
+    padding:20px;
+
+    transition:.3s;
+}
+
+.alert-card:hover{
+
+    transform:
+    translateY(-5px);
+
+    box-shadow:
+    0 0 15px rgba(255,0,100,.3);
+}
+
+.alert-title{
+
+    color:#ef4444;
+}
+
+.summary-card{
+
+    padding:25px;
+}
+
+.footer{
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    padding:20px;
+}
