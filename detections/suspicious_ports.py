@@ -1,6 +1,8 @@
 def detect(packet):
 
     risky_ports = [
+        80,
+        443,
         21,
         22,
         23,

@@ -1,10 +1,32 @@
 [
     {
-        "src_ip": "1.1.23.3",
-        "attack": "Brute Force"
+        "attack": "Brute Force",
+        "src_ip": "10.0.0.5",
+        "severity": "CRITICAL"
     },
     {
-        "src_ip": "1.1.12.1",
-        "attack": "Brute Force"
+        "attack": "Port Scan",
+        "src_ip": "192.168.1.100",
+        "severity": "HIGH"
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "172.16.1.50",
+        "severity": "HIGH"
+    },
+    {
+        "attack": "Threat Intelligence Match",
+        "src_ip": "185.22.45.11",
+        "severity": "CRITICAL"
+    },
+    {
+        "attack": "Port Scan",
+        "src_ip": "192.168.1.101",
+        "severity": "HIGH"
+    },
+    {
+        "attack": "Brute Force",
+        "src_ip": "10.0.0.10",
+        "severity": "CRITICAL"
     }
 ]
