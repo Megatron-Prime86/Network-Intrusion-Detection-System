@@ -68,3 +68,14 @@ Risk Score:
 
 """
     )
+
+    return {
+        "attack": attack,
+        "src_ip": packet.get("src_ip"),
+        "dst_ip": packet.get("dst_ip"),
+        "dst_port": packet.get("dst_port"),
+        "mitre_technique": mitre["technique"],
+        "mitre_tactic": mitre["tactic"],
+        "severity": severity,
+        "risk_score": risk,
+    }

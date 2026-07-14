@@ -1,32 +1,2002 @@
 [
     {
-        "attack": "Brute Force",
-        "src_ip": "10.0.0.5",
-        "severity": "CRITICAL"
-    },
-    {
-        "attack": "Port Scan",
-        "src_ip": "192.168.1.100",
-        "severity": "HIGH"
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
     },
     {
         "attack": "Suspicious Port Access",
-        "src_ip": "172.16.1.50",
-        "severity": "HIGH"
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
     },
     {
-        "attack": "Threat Intelligence Match",
-        "src_ip": "185.22.45.11",
-        "severity": "CRITICAL"
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
     },
     {
-        "attack": "Port Scan",
-        "src_ip": "192.168.1.101",
-        "severity": "HIGH"
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
     },
     {
-        "attack": "Brute Force",
-        "src_ip": "10.0.0.10",
-        "severity": "CRITICAL"
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.42.73.27",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.42.73.27",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
+    },
+    {
+        "attack": "Suspicious Port Access",
+        "src_ip": "10.0.1.38",
+        "dst_ip": "20.197.80.108",
+        "dst_port": 443,
+        "mitre_technique": "T1595",
+        "mitre_tactic": "Reconnaissance",
+        "severity": "HIGH",
+        "risk_score": 70
     }
 ]

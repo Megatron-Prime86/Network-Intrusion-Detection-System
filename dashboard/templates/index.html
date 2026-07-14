@@ -87,6 +87,47 @@
         </div>
     </div>
 
+    <!-- NETWORK FLOWS -->
+    <div class="row mt-5 px-4">
+
+        <div class="col-md-4">
+            <div class="glass p-4">
+                <h4>🌐 Top Source IPs</h4>
+                <hr>
+                <div id="top-sources">
+                    {% for host in flows.top_sources %}
+                    <p>{{ host[0] }} ({{ host[1] }})</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="glass p-4">
+                <h4>🎯 Top Destinations</h4>
+                <hr>
+                <div id="top-destinations">
+                    {% for host in flows.top_destinations %}
+                    <p>{{ host[0] }} ({{ host[1] }})</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="glass p-4">
+                <h4>🔌 Top Ports</h4>
+                <hr>
+                <div id="top-ports">
+                    {% for port in flows.top_ports %}
+                    <p>{{ port[0] }} ({{ port[1] }})</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="footer">
         Powered by Network Intrusion Detection System
         <span id="last-updated"></span>
@@ -132,88 +173,6 @@ function drawChart(labels, values) {
     }
 }
 
-<div class="row mt-5 px-4">
-
-    <div class="col-md-4">
-
-        <div class="glass p-4">
-
-            <h4>
-                🌐 Top Source IPs
-            </h4>
-
-            <hr>
-
-            {% for host in flows.top_sources %}
-
-            <p>
-
-                {{ host[0] }}
-
-                ({{ host[1] }})
-
-            </p>
-
-            {% endfor %}
-
-        </div>
-
-    </div>
-
-    <div class="col-md-4">
-
-        <div class="glass p-4">
-
-            <h4>
-                🎯 Top Destinations
-            </h4>
-
-            <hr>
-
-            {% for host in flows.top_destinations %}
-
-            <p>
-
-                {{ host[0] }}
-
-                ({{ host[1] }})
-
-            </p>
-
-            {% endfor %}
-
-        </div>
-
-    </div>
-
-    <div class="col-md-4">
-
-        <div class="glass p-4">
-
-            <h4>
-                🔌 Top Ports
-            </h4>
-
-            <hr>
-
-            {% for port in flows.top_ports %}
-
-            <p>
-
-                {{ port[0] }}
-
-                ({{ port[1] }})
-
-            </p>
-
-            {% endfor %}
-
-        </div>
-
-    </div>
-
-</div>
-
 function renderAlerts(alerts) {
     const container = document.getElementById("alert-list");
 
@@ -237,6 +196,25 @@ function renderAlerts(alerts) {
     }).join("");
 }
 
+function renderFlowList(elementId, entries) {
+    const container = document.getElementById(elementId);
+
+    if (!entries.length) {
+        container.innerHTML = '<p class="text-muted">No data available.</p>';
+        return;
+    }
+
+    container.innerHTML = entries.map(function (entry) {
+        return '<p>' + escapeHtml(entry[0]) + ' (' + escapeHtml(entry[1]) + ')</p>';
+    }).join("");
+}
+
+function renderFlows(flows) {
+    renderFlowList("top-sources", flows.top_sources || []);
+    renderFlowList("top-destinations", flows.top_destinations || []);
+    renderFlowList("top-ports", flows.top_ports || []);
+}
+
 function updateMetrics(data) {
     document.getElementById("total-alerts").textContent = data.total_alerts;
     document.getElementById("active-incidents").textContent = data.active_incidents;
@@ -256,6 +234,7 @@ async function refreshDashboard() {
         updateMetrics(data);
         drawChart(data.attack_labels, data.attack_values);
         renderAlerts(data.alerts);
+        renderFlows(data.flows || {});
     } catch (err) {
         console.error("Dashboard refresh failed:", err);
     }
