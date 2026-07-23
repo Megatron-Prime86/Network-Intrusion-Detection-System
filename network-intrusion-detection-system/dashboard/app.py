@@ -28,9 +28,10 @@ from typing import Any
 _PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(_PROJECT_ROOT)
 
-from flask import Flask, jsonify, render_template
+from flask import Flask, abort, jsonify, render_template, send_from_directory
 
 from capture_engine import start_capture
+from generate_report import build_report
 from logging_config import configure_logging
 
 logger = logging.getLogger(__name__)
@@ -39,6 +40,10 @@ app = Flask(__name__)
 
 ALERTS_FILE = "exports/alerts.json"
 PACKETS_FILE = "exports/live_packets.json"
+# Absolute path: send_from_directory resolves relative paths against Flask's
+# app.root_path (the dashboard/ folder), not the process's cwd, so a plain
+# "exports" here would 404 even though os.chdir(_PROJECT_ROOT) ran above.
+EXPORTS_DIR = os.path.join(_PROJECT_ROOT, "exports")
 
 TOP_N = 5
 
@@ -140,6 +145,40 @@ def dashboard_data():
     data = build_dashboard_data()
     data["flows"] = get_network_flows()
     return jsonify(data)
+
+
+# Only these exact filenames can be downloaded via /reports/<filename> — keeps
+# the route from being usable to read arbitrary files out of exports/.
+_DOWNLOADABLE_REPORTS = {
+    "incident_report.txt",
+    "network_security_report.txt",
+    "network_statistics.json",
+}
+
+
+@app.route("/api/generate-report", methods=["POST"])
+def api_generate_report():
+    """Build the incident/network/statistics reports from the alerts seen so far.
+
+    Reads whatever is currently in `exports/alerts.json` (capped at the
+    live capture's rolling window — see `capture_engine.MAX_ALERTS`) and
+    writes the report files into `exports/`, ready for `/reports/<name>`
+    to serve.
+    """
+    alerts = load_alerts()
+    if not alerts:
+        return jsonify({"error": "No alerts yet to report on."}), 400
+
+    build_report(alerts)
+    return jsonify({"status": "ok", "files": sorted(_DOWNLOADABLE_REPORTS)})
+
+
+@app.route("/reports/<path:filename>")
+def download_report(filename: str):
+    """Serve a previously generated report file for download."""
+    if filename not in _DOWNLOADABLE_REPORTS:
+        abort(404)
+    return send_from_directory(EXPORTS_DIR, filename, as_attachment=True)
 
 
 def parse_args() -> argparse.Namespace:

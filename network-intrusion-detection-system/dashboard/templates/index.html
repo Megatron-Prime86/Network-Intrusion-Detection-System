@@ -13,9 +13,14 @@
 <body>
 <div class="container-fluid">
 
-    <div class="dashboard-title">
-        <h1>🛡️ Network Security Operations Center</h1>
-        <p>Real-Time Intrusion Detection & Threat Monitoring Platform</p>
+    <div class="dashboard-title d-flex justify-content-between align-items-center flex-wrap">
+        <div>
+            <h1>🛡️ Network Security Operations Center</h1>
+            <p>Real-Time Intrusion Detection & Threat Monitoring Platform</p>
+        </div>
+        <button class="btn btn-outline-light" id="download-report-btn" onclick="downloadReport()">
+            📄 Download Report
+        </button>
     </div>
 
     <!-- TOP CARDS -->
@@ -240,10 +245,36 @@ async function refreshDashboard() {
     }
 }
 
+async function downloadReport() {
+    const btn = document.getElementById("download-report-btn");
+    const originalText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Generating…";
+
+    try {
+        const response = await fetch("/api/generate-report", { method: "POST" });
+        const data = await response.json();
+
+        if (!response.ok) {
+            alert(data.error || "Could not generate a report.");
+            return;
+        }
+
+        // Trigger the browser's native file download.
+        window.location.href = "/reports/network_security_report.txt";
+    } catch (err) {
+        console.error("Report generation failed:", err);
+        alert("Report generation failed. Check the server console for details.");
+    } finally {
+        btn.disabled = false;
+        btn.textContent = originalText;
+    }
+}
+
 // Initial chart draw from server-rendered data (avoids a blank chart flash).
 drawChart({{ attack_labels | tojson }}, {{ attack_values | tojson }});
 
-setInterval(refreshDashboard, 5000);
+setInterval(refreshDashboard, 1000);
 </script>
 
 </body>

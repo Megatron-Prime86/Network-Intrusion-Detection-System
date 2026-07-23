@@ -62,9 +62,9 @@ PACKETS_FILE = "exports/live_packets.json"
 
 MAX_ALERTS = 200  # alerts kept in exports/alerts.json
 EXPORT_PACKET_LIMIT = 500  # packets kept for the flow-stats panel
-EXPORT_INTERVAL_SECONDS = 5  # how often exports/ gets refreshed
-DETECTION_INTERVAL_SECONDS = 10  # how often threshold rules re-scan the recent packet window
-ALERT_COOLDOWN_SECONDS = 60  # suppress a repeat (src_ip, attack) alert within this window
+EXPORT_INTERVAL_SECONDS = 1  # how often exports/ gets refreshed
+DETECTION_INTERVAL_SECONDS = 2  # how often threshold rules re-scan the recent packet window
+ALERT_COOLDOWN_SECONDS = 5  # suppress a repeat (src_ip, attack) alert within this window
 
 _state_lock = threading.Lock()
 _alerts: deque = deque(maxlen=MAX_ALERTS)
@@ -122,6 +122,13 @@ def _process_packet(packet: Any) -> None:
         result = None
 
     if not result:
+        return
+
+    # Same cooldown used for threshold detections: without it, every packet
+    # to a common port like 80/443 raises a fresh alert, flooding the
+    # capped _alerts deque with "Suspicious Port Access" and starving out
+    # the rarer Port Scan / Brute Force alerts before they're ever exported.
+    if not _cooldown_ok(parsed["src_ip"], result["attack"]):
         return
 
     try:
