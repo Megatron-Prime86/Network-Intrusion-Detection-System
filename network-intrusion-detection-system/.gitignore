@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Environment / secrets ---
+.env
+.env.*
+
+# --- Local databases ---
+*.sqlite3
+*.db
+
+# --- NIDS runtime exports (regenerated on every run) ---
+exports/*.json
+exports/*.txt
+!exports/.gitkeep
+
+# --- Editor / OS cruft ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
